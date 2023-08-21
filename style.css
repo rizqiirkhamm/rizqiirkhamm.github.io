@@ -78,7 +78,7 @@ header.sticky {
   margin-right: 55px;
 }
 
-.select-btn{
+.select-menu{
   display: none;
 
 }
@@ -674,7 +674,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #051c3d;
+  background-color: #F7F7F7;
 }
 
 .container-contact {
@@ -694,6 +694,10 @@ button:hover {
     font-size: 42px;
     color: white;
     
+  }
+  .read {
+    text-decoration: none;
+    color: #7d7979;
   }
   
   .tittle-contact h1::after {
@@ -719,7 +723,7 @@ button:hover {
 }
 
 .contact-form {
-  background-color: #345185;
+  background-color: #749BC2;
   position: relative;
 }
 
@@ -727,7 +731,7 @@ button:hover {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #6a97c3);
+  background: linear-gradient(135deg, transparent 20%, #FEFBF6);
   position: absolute;
 }
 
@@ -749,7 +753,7 @@ button:hover {
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #345185;
+  background-color: #749BC2;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
@@ -821,7 +825,7 @@ textarea.input {
   background-color: #fff;
   border: 2px solid #fafafa;
   font-size: 0.9rem;
-  color: #345185;
+  color: #749BC2;
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -855,7 +859,7 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: #345185;
+  background-color: #749BC2;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -891,7 +895,7 @@ textarea.input {
 }
 
 .contact-info .tittle-touch {
-  color: #345185;
+  color: #749BC2;
 }
 
 .text {
@@ -933,7 +937,7 @@ textarea.input {
   width: 65px;
   height: 55px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #345185, #6a97c3);
+  background: linear-gradient(45deg, #749BC2, #6a97c3);
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -955,7 +959,7 @@ textarea.input {
   position: absolute;
   width: 250px;
   height: 220px;
-  border: 22px solid #345185;
+  border: 22px solid #749BC2;
   border-radius: 50%;
   bottom: -110px;
   right: 95px;
@@ -972,7 +976,7 @@ textarea.input {
   height: 500px;
   border-radius: 50%;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #345185, #6a97c3);
+  background: linear-gradient(to bottom, #749BC2, #6a97c3);
   bottom: 50%;
   right: 80%;
   transform: translate(-40%, 38);
@@ -983,7 +987,7 @@ textarea.input {
   position: absolute;
   width: 360px;
   height: 360px;
-  background-color: #051c3d;
+  background-color: #F7F7F7;
   border-radius: 50%;
   top: calc(50% - 180px);
   left: calc(50% - 180px);
@@ -1058,6 +1062,9 @@ textarea.input {
 @media screen and (max-width: 768px) {
   .navbar{
     display: none;
+  }
+  .select-menu{
+    display: block;
   }
   .select-btn{
     display: block;
