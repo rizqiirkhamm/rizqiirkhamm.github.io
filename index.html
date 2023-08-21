@@ -10,7 +10,8 @@
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="style.css">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Icons -->
@@ -22,8 +23,6 @@
 
 <body>
 
-    <!-- Header -->
-
     <header class="header">
         <a href="#" class="logo">Rizqiirkham</a>
 
@@ -34,6 +33,28 @@
             <a href="#blog">Blog</a>
             <a href="#contact">Contact</a>
         </nav>
+        <div class="select-menu">
+            <div class="select-btn" id="select-btn">
+                <img src="img/bars.png" id="bars" class="bars" width="50px" alt="">
+            </div> 
+            <ul class="list">
+                <li class="option" style="--i:5;">
+                    <a class="option-text" href="#home">Home</a>
+                </li>
+                <li class="option" style="--i:4;">
+                    <a class="option-text" href="#about">About</a>
+                </li>
+                <li class="option" style="--i:3;">
+                    <a class="option-text" href="#services">Services</a>
+                </li>
+                <li class="option" style="--i:2;">
+                    <a class="option-text" href="#blog">Blog</a>
+                </li>
+                <li class="option" style="--i:1;">
+                    <a class="option-text" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <section class="home" id="home">
@@ -63,31 +84,31 @@
 
     </section>
 
-    <!-- About me  -->
+   <!-- About me  -->
 
-    <section class="about hidden" id="about">
-        <div class="main">
-            <img class="img1"data-aos="fade-up-right" data-aos-duration="1000" src="img/aboutme.jpg">
-            <div class="about-text" data-aos="fade-up-left" data-aos-duration="1000" id="about">
-                <h1>About Me</h1>
-                <h5>Devoloper<span> & Watch</span></h5>
-                <p> I study at SMK IDN Boarding school.
-                    My goal is to become a Software Engineer and I have 2 month
-                    experience as a Junior web develompent.</p>
-                <button type="button">MY CV</button>
-            </div>
+   <section class="about" id="about">
+    <div class="main">
+        <img class="img" data-aos="fade-up-right" data-aos-duration="1000" src="img/aboutme.jpg">
+        <div class="about-text" data-aos="fade-up-left" data-aos-duration="1000" id="about">
+            <h1>About Me</h1>
+            <h5>Devoloper<span> & Watch</span></h5>
+            <p> I study at SMK IDN Boarding school.
+                My goal is to become a Software Engineer and I have 2 month
+                experience as a Junior web develompent.</p>
+            <button type="button">MY CV</button>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Services -->
 
     <section class="services hidden" id="services">
-        <div class="tittle-services"  data-aos="zoom-in">
+        <div class="tittle-services" data-aos="zoom-in">
             <h1>Our Services</h1>
         </div>
 
         <div class="container">
-            <div class="box" data-aos="fade-right"data-aos-duration="1000" style="--clr:#749BC2;">
+            <div class="box" data-aos="fade-right" data-aos-duration="1000" style="--clr:#476072;">
                 <div class="content">
                     <div class="icon">
                         <ion-icon name="logo-html5"></ion-icon>
@@ -99,8 +120,8 @@
                     </div>
                 </div>
             </div>
-       
-            <div class="box" data-aos="fade-right" data-aos-duration="1000" style="--clr:#d8e5fe;">
+
+            <div class="box" data-aos="fade-right" data-aos-duration="1000" style="--clr:#476072;">
                 <div class="content">
                     <div class="icon">
                         <ion-icon name="logo-css3"></ion-icon>
@@ -112,8 +133,8 @@
                     </div>
                 </div>
             </div>
-     
-            <div class="box" data-aos="fade-left" data-aos-duration="1000" style="--clr:#7895CB;">
+
+            <div class="box" data-aos="fade-left" data-aos-duration="1000" style="--clr:#476072;">
                 <div class="content">
                     <div class="icon">
                         <ion-icon name="server-outline"></ion-icon>
@@ -126,7 +147,7 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-left" data-aos-duration="1000" style="--clr:#91C8E4;">
+            <div class="box" data-aos="fade-left" data-aos-duration="1000" style="--clr:#476072;">
                 <div class="content">
                     <div class="icon">
                         <ion-icon name="logo-javascript"></ion-icon>
@@ -139,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up-right" data-aos-duration="1000" style="--clr:#75C2F6;">
+            <div class="box" data-aos="fade-up-right" data-aos-duration="1000" style="--clr:#476072;">
                 <div class="content">
                     <div class="icon">
                         <ion-icon name="logo-react"></ion-icon>
@@ -152,7 +173,8 @@
                 </div>
             </div>
 
-            <div class="box" data-aos="fade-up-left" data-aos="fade-up-left" data-aos-duration="1000"  style="--clr:#C5DFF8;">
+            <div class="box" data-aos="fade-up-left" data-aos="fade-up-left" data-aos-duration="1000"
+                style="--clr:#476072;">
                 <div class="content">
                     <div class="icon">
                         <ion-icon name="logo-laravel"></ion-icon>
@@ -173,7 +195,7 @@
 
     <section class="blog" id="blog">
         <div class="container-blog">
-            <h2 data-aos="fade-down"data-aos-duration="1000" >Blog</h2>
+            <h2 data-aos="fade-down" data-aos-duration="1000">BLOG</h2>
             <!-- Post 1 -->
             <div class="blog-post" data-aos="fade-right" data-aos-duration="3000">
                 <div class="blog-post_img">
@@ -216,18 +238,18 @@
     <!-- Contact -->
 
     <section class="contact hidden" id="contact">
-        <div class="container-contact" >
-            <span class="big-circle" ></span>
+
+        <div class="container-contact">
+            <span class="big-circle"></span>
             <img src="img/image-contact/shape.png" class="square" alt="">
             <div class="form" data-aos="zoom-in-down" data-aos-duration="1000">
                 <!-- Info Contact -->
-                <div class="contact-info" >
+                <div class="contact-info">
                     <h3 class="tittle-touch">Let's Get in touch</h3>
                     <p class="text">
                         We'd love to hear from you! Let's get in touch for questions, collaboration, or just to say
                         hello and build rapport with you. Contact us and let's start working together.
                     </p>
-
                     <div class="info">
                         <div class="information">
                             <img src="img/image-contact/map.png" class="map" alt="">
@@ -250,15 +272,15 @@
                             <a href="#">
                                 <ion-icon name="logo-linkedin"></ion-icon>
                             </a>
-                                <!-- Icon github Contact -->
+                            <!-- Icon github Contact -->
                             <a href="#">
                                 <ion-icon name="logo-github"></ion-icon>
                             </a>
-                                <!-- Icon Instagram Contact -->
+                            <!-- Icon Instagram Contact -->
                             <a href="#">
                                 <ion-icon name="logo-instagram"></ion-icon>
                             </a>
-                                <!-- Icon Youtube Contact -->
+                            <!-- Icon Youtube Contact -->
                             <a href="#">
                                 <ion-icon name="logo-youtube"></ion-icon>
                             </a>

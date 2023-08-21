@@ -44,7 +44,7 @@ inputs.forEach(input => {
     input.addEventListener("blur", blurFunc);
 });
 
-const observer = new IntersectionObserverEntry((entries) => {
+const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
         if (entry,isIntersecting) {
@@ -55,4 +55,12 @@ const observer = new IntersectionObserverEntry((entries) => {
     });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden')
+const hiddenElements = document.querySelectorAll('.hidden');
+
+const selectBtn = document.getElementById('select-btn');
+const bars = document.getElementById('bars');
+const option = document.getElementsByClassName('option');
+
+selectBtn.addEventListener('click', function() {
+    selectBtn.classList.toggle('Active');
+});
